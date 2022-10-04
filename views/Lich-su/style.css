@@ -1,0 +1,95 @@
+ td {
+   padding: 20px;
+   border: none !important;
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ th {
+   color: black !important;
+ }
+
+ table {
+   margin-left: 20%;
+   width: 70%;
+ }
+ 
+.btn-show-menu-select{
+  /* background-color: red; */
+}
+.btn-show-menu-select i{
+  cursor: pointer;
+}
+
+ .actionIcon{
+  width: 25px;
+ }
+
+ .menu-select{
+  display: none;
+  position: absolute;
+  right: 5%;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+ }
+ .modal_edit_in4{
+  display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999999999;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); 
+ }
+ .modal_edit_in4_content{
+  border-radius: 10px;
+  margin: 5% auto;
+  background: white;
+  width: 500px;
+ }
+ .modal_edit_in4 form {
+  height: 100%;
+
+  padding: 20px;
+  margin: auto 0px
+
+ }
+ .modal_edit_in4 input{
+  width: 100%;
+  padding: 5px;
+ }
+ .btn-xac-in4-user-wrapper{
+  padding: 10px;
+  text-align: center;
+ }
+ .btn-xac-in4-user-wrapper button{
+  padding: 10px;
+  border: none;
+  background: #b82b2b;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+ }
+ .btn-xac-in4-user-wrapper button:hover{
+  background: gray;
+  color: black
+ }
+
+ .btn-huy-in4-user-wrapper{
+  padding: 10px 0px;
+  text-align: center;
+ }
+ .btn-huy-in4-user-wrapper button{
+  padding: 10px 15px;
+  border: none;
+  background: #b82b2b;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+ }
+ .btn-huy-in4-user-wrapper button:hover{
+  background: gray;
+  color: black
+ }
